@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #000000;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-size: larger ;
+}
+
+/* Grid de produtos */
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+    font-weight: 300;
+}
+
+.catalago-produto{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 29%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.produto-imagem{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: left;
+    background-size: cover;
+
+}
+
+#img-1{
+    background-image: url('https://www.ibanez.com/common/product_artist_file/file/p_region_RGDR4527ET_NTF_00_01.png');
+}
+#img-2{
+    background-image: url('https://www.ibanez.com/common/product_artist_file/file/p_region_AZ2402_TFF_00_02.png');
+}
+#img-3{
+    background-image: url('https://www.ibanez.com/common/product_artist_file/file/p_region_AZ2204NW_MGR_00_02.png');
+}
+#img-4{
+    background-image: url('https://www.ibanez.com/common/product_artist_file/file/p_region_AZ2203N_ATQ_00_01.png');
+}
+#img-5{
+    background-image: url('https://www.ibanez.com/common/product_artist_file/file/p_region_GRX120SP_VRD_5Y_01.png');
+}
+#img-6{
+    background-image: url('https://www.ibanez.com/common/product_artist_file/file/p_region_TOD10_MM_1P_01.png');
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #1d1d1d;
+    font-size: 24px;
+    border-left: 2px solid #161616;
+    padding-left: 8px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.bnt:hover {
+ background-color: #474747;
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+}
+
+.produto-nome{
+    font-weight: 300;
+}
+
+.produto-desc{
+    font-weight: 200;
+}
+
+.produto-valor{
+    font-weight: 300;
+}
